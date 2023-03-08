@@ -1,5 +1,5 @@
 import React from 'react'
-import {createBrowserRouter, createRoutesFromElements, Route, RouterProvider, Outlet} from 'react-router-dom'
+import {createBrowserRouter, createRoutesFromElements, Route, RouterProvider} from 'react-router-dom'
 import SignIn from './sections/SignIn'
 import Admin from './components/Admin'
 import {RequireAuth} from './components/RequireAuth'
