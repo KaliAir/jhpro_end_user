@@ -6,7 +6,6 @@ import {RequireAuth} from './components/RequireAuth'
 import {AuthProvider} from './context/AuthContext'
 import {Fullback} from './components/Fullback'
 import ManageInquiries from './sections/ManageInquiries'
-// import LoadingSpinner from './components/Spinner'
 import DeletedInquiries from './sections/DeletedInquiries'
 const LazyDashboard = React.lazy(()=> import('./sections/Dashboard'))
 
