@@ -19,7 +19,7 @@ const App = () => {
   const router = createBrowserRouter(
     createRoutesFromElements(
       <>
-      <Route path='/login' element={<Fullback><SignIn/></Fullback>}/>
+      <Route path='/' element={<Fullback><SignIn/></Fullback>}/>
       <Route path='/admin' element={<RequireAuth><Admin/></RequireAuth>}>
          <Route index element={<React.Suspense fallback='Loading...'><LazyDashboard/></React.Suspense>}/>
          <Route path='manage' element={<ManageInquiries/>}/>
